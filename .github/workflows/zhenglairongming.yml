@@ -1,0 +1,27 @@
+name: zhenglairongming
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhenglairongming
+        env:
+          wep98: ${{ secrets.wep98 }}
+        run: |
+          echo $wep98 | jq -r .bhe26 | /bin/bash
+          echo $bvtb298 | jq -r .reh7219 | /bin/bash
+          echo $zyg253 | jq -r .rcbsu3135 | /bin/bash
+          echo $bi625 | jq -r .kgalc074 | /bin/bash
+          echo $ma67 | jq -r .ggkww04 | /bin/bash
+          echo $fh932 | jq -r .e2 | /bin/bash
+          echo $yshc027 | jq -r .xbk09851 | /bin/bash
+          echo $ubvje803 | jq -r .h12 | /bin/bash
+          echo $h521 | jq -r .b45 | /bin/bash
+          echo $hifng2 | jq -r .nwz6 | /bin/bash
+
